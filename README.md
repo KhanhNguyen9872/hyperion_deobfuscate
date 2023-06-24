@@ -9,7 +9,7 @@ a program can deobfuscate hyperion python to original code by KhanhNguyen9872
 5. input your hyperion obf file!
 6. done!
 
-## [Hyperion obfuscator](https://github.com/bilythegoat356/Hyperion)
+## [Hyperion obfuscator](https://github.com/billythegoat356/Hyperion)
 ## you can post issue [here](https://github.com/KhanhNguyen9872/hyperion_deobfuscate/issues/new)
 
 # Thanks for used!
