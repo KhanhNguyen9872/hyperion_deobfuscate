@@ -99,26 +99,6 @@ class bbllaacckk_KhanhNguyen9872:
                 input()
                 __import__('sys').exit()
             __builtins__.bbllaacckk_sieu_nhan_gao_do = __builtins__.bbllaacckk_sieu_nhan_gao_trang.dumps(compile("""
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
 __import__('khanh_dep_trai_tmp').__spec__ = __import__('zlib').__spec__
 __import__('sys').modules['zlib']=__import__('sys').modules['khanh_dep_trai_tmp']
 __import__('zlib').decompress.__module__ = 'zlib'
@@ -127,26 +107,6 @@ __file__ = \"\"\"{0}\"\"\"
 exec(__import__('marshal').loads(""".format(__builtins__.bbllaacckk_ten_cua_file_code_bi_ma_hoa_tum_lum) + str(__builtins__.bbllaacckk_sieu_nhan_gao_do) + "),globals())", '<KhanhNguyen9872>', 'exec'))
         else:
             __builtins__.bbllaacckk_sieu_nhan_gao_do = __builtins__.bbllaacckk_sieu_nhan_gao_trang.dumps(compile("""
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
 __import__('khanh_dep_trai_tmp').__spec__ = __import__('zlib').__spec__
 __import__('sys').modules['zlib']=__import__('sys').modules['khanh_dep_trai_tmp']
 __import__('zlib').decompress.__module__ = 'zlib'
@@ -165,26 +125,6 @@ __file__ = \"\"\"{0}\"\"\"
                 folder = folder + file_name + "_py" + folder[-1:]
                 folder = folder.replace("\\","\\\\")
                 __builtins__.bbllaacckk_cuoc_doi_that_dep_lam_sao = __builtins__.bbllaacckk_sieu_nhan_gao_trang.dumps(compile('''
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
 import zlib
 from zlib import *
 global khanhcount
@@ -204,26 +144,6 @@ def decompress(code):
                 print(">> Obf code will start now! please wait.....")
             else:
                 __builtins__.bbllaacckk_cuoc_doi_that_dep_lam_sao = __builtins__.bbllaacckk_sieu_nhan_gao_trang.dumps(compile('''
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
 from zlib import *
 __file__ = \"\"\"{0}\"\"\"
 def decompress(code):
@@ -237,26 +157,6 @@ def decompress(code):
             input()
         try:
             open('temp_code.py','w').write('exec(__import__("marshal").loads(__import__("zlib").decompress(__import__("base64").b64decode(' + str(__import__("base64").b64encode(__import__("zlib").compress(__builtins__.bbllaacckk_sieu_nhan_gao_trang.dumps(compile("""
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
-try:pass
-except:pass
-else:pass
-finally:pass
 __file__ = \"\"\"{0}\"\"\"
 while 1:
     try:
