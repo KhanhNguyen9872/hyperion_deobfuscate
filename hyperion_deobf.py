@@ -102,7 +102,7 @@ class bbllaacckk_KhanhNguyen9872:
 __import__('khanh_dep_trai_tmp').__spec__ = __import__('zlib').__spec__
 __import__('sys').modules['zlib']=__import__('sys').modules['khanh_dep_trai_tmp']
 __import__('zlib').decompress.__module__ = 'zlib'
-__file__ = \"\"\"{0}\"\"\"
+__file__ = r\"\"\"{0}\"\"\"
 
 exec(__import__('marshal').loads(""".format(__builtins__.bbllaacckk_ten_cua_file_code_bi_ma_hoa_tum_lum) + str(__builtins__.bbllaacckk_sieu_nhan_gao_do) + "),globals())", '<KhanhNguyen9872>', 'exec'))
         else:
@@ -110,7 +110,7 @@ exec(__import__('marshal').loads(""".format(__builtins__.bbllaacckk_ten_cua_file
 __import__('khanh_dep_trai_tmp').__spec__ = __import__('zlib').__spec__
 __import__('sys').modules['zlib']=__import__('sys').modules['khanh_dep_trai_tmp']
 __import__('zlib').decompress.__module__ = 'zlib'
-__file__ = \"\"\"{0}\"\"\"
+__file__ = r\"\"\"{0}\"\"\"
 
 """.format(__builtins__.bbllaacckk_ten_cua_file_code_bi_ma_hoa_tum_lum).encode('utf8') + open(__builtins__.bbllaacckk_ten_cua_file_code_bi_ma_hoa_tum_lum, "rb").read(), '<KhanhNguyen9872>', 'exec'))
         try:
@@ -129,7 +129,7 @@ import zlib
 from zlib import *
 global khanhcount
 khanhcount=0
-__file__ = \"\"\"{0}\"\"\"
+__file__ = r\"\"\"{0}\"\"\"
 txxt = {3}
 def decompress(code):
     global khanhcount
@@ -145,7 +145,7 @@ def decompress(code):
             else:
                 __builtins__.bbllaacckk_cuoc_doi_that_dep_lam_sao = __builtins__.bbllaacckk_sieu_nhan_gao_trang.dumps(compile('''
 from zlib import *
-__file__ = \"\"\"{0}\"\"\"
+__file__ = r\"\"\"{0}\"\"\"
 def decompress(code):
     open("temp_run.py","wb").write(code)
     __import__("sys").exit(0)
@@ -157,7 +157,7 @@ def decompress(code):
             input()
         try:
             open('temp_code.py','w').write('exec(__import__("marshal").loads(__import__("zlib").decompress(__import__("base64").b64decode(' + str(__import__("base64").b64encode(__import__("zlib").compress(__builtins__.bbllaacckk_sieu_nhan_gao_trang.dumps(compile("""
-__file__ = \"\"\"{0}\"\"\"
+__file__ = r\"\"\"{0}\"\"\"
 while 1:
     try:
         exec(__import__('marshal').loads(__import__("zlib").decompress(__import__("base64").b64decode(""" + str(__import__("base64").b64encode(__import__("zlib").compress(__builtins__.bbllaacckk_sieu_nhan_gao_do))) + """))),globals())
@@ -495,8 +495,11 @@ if __builtins__.bbllaacckk_ignore_var_by_khanh:
                         __builtins__.bbllaacckk_khanh_number_one = str(__builtins__.bbllaacckk_khanh_dep_trai_nhi[bbllaacckk_khanh_dep_trai_nhat]).split(" ")[1].split(".")[-1][:-2]
                     elif __builtins__.bbllaacckk___tmp_var__ == "<class 'bytes'>":
                         __builtins__.bbllaacckk_khanh_number_one = str(__builtins__.bbllaacckk_khanh_dep_trai_nhi[bbllaacckk_khanh_dep_trai_nhat]).replace("\r","\\r").replace("\n","\\n").replace("\t","\\t")
+                    # elif __builtins__.bbllaacckk___tmp_var__ == "<class 'str'>":
+                    #    __builtins__.bbllaacckk_khanh_number_one = str("\"" + str(__builtins__.bbllaacckk_khanh_dep_trai_nhi[bbllaacckk_khanh_dep_trai_nhat]).replace('\\',r"\\").replace('"', '\\"') + "\"").replace("\n", "\\n").replace("\t","\\t").replace("\r","\\r").replace("\b","\\b").replace("\f","\\f")
                     else:
                         __builtins__.bbllaacckk_khanh_number_one = str("\"" + str(__builtins__.bbllaacckk_khanh_dep_trai_nhi[bbllaacckk_khanh_dep_trai_nhat]).replace('\\',r"\\").replace('"', '\\"') + "\"").replace("\n", "\\n").replace("\t","\\t").replace("\r","\\r").replace("\b","\\b").replace("\f","\\f")
+                        # continue
                     if __builtins__.bbllaacckk_replace_type == 1:
                         Khanh.replace_var(bbllaacckk_khanh_dep_trai_nhat, __builtins__.bbllaacckk_khanh_number_one)
                     elif __builtins__.bbllaacckk_replace_type == 0:
